@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "exemple-stdio": { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-everything"], "env": {} },
+    "exemple-http": { "url": "http://localhost:3000/mcp", "headers": {}, "token": "" },
+    "exemple-sse": { "url": "http://localhost:3001/sse", "type": "sse", "token": "" }
+  }
+}
